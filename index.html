@@ -330,7 +330,7 @@
                   <li class="description">Cuatro Sandwich Hogs a elección!</li>
                   <li>4 bebidas</li>
                   <li>Caja personalizada Hogs!</li>
-                  <li><a class="button" href="#">Pide Ahora</a></li>
+                  <li><a class="button" data-toggle-promo="4" data-toggle-nombre="4 Hogs" href="#solicitud-container">Pide Ahora</a></li>
                 </ul>
               </div>
               <div class="column small-6 medium-4 medium-offset-2">
@@ -340,7 +340,7 @@
                   <li class="description">Tres Sandwich Hogs a elección!</li>
                   <li data-equalizer-watch>3 bebidas</li>
                   <li>Caja personalizada Hogs!</li>
-                  <li><a class="button" href="#">Pide Ahora</a></li>
+                  <li><a class="button" data-toggle-promo="3" data-toggle-nombre="3 Hogs" href="#solicitud-container">Pide Ahora</a></li>
                 </ul>
               </div>
               <div class="column small-6 medium-4">
@@ -350,7 +350,7 @@
                   <li class="description">Dos Sandwich Hogs a elección!</li>
                   <li data-equalizer-watch>2 Bebidas</li>
                   <li>Caja personalizada Hogs!</li>
-                  <li><a class="button" href="#">Pide Ahora</a></li>
+                  <li><a class="button" data-toggle-promo="2" data-toggle-nombre="2 Hogs" href="#solicitud-container">Pide Ahora</a></li>
                 </ul>
               </div>
             </div>
@@ -383,13 +383,19 @@
                   <div class="grid-x grid-padding-x">
                     <div class="small-12 cell">
                       <label style="color: white;">Elige los Hog's que deseas!</label>
-                        <select multiple required id="multiple">
-                          <option value="showboat">Showboat</option>
-                          <option value="redwing">Redwing</option>
-                          <option value="narcho">Narcho</option>
-                          <option value="hardball">Hardball</option>
-                        </select>
-                      
+                      <select multiple required id="multiple">
+                        <option value="showboat">Showboat</option>
+                        <option value="redwing">Redwing</option>
+                        <option value="narcho">Narcho</option>
+                        <option value="hardball">Hardball</option>
+                        <option value="cubano">Cubano</option>
+                        <option value="mexicano">Mexicano</option>
+                        <option value="uruguayo">Uruguayo</option>
+                        <option value="peruano">Peruano</option>
+                      </select>
+                    </div>
+                    <div data-abide-error id="messageError" class="row columns small-12 medium-6 text-center error-container" style="display: none;">
+                      <p id="cantError"></p>
                     </div>
                   </div>
                 </div>
@@ -408,6 +414,29 @@
 
                   <span class="input-group-label small-offset-1 medium-offset-1"><i class="fi-address-book"></i></span>
                   <input type="text" name="direccion" class="input-group-field" placeholder="Ingresa tu dirección aqui" required>
+                </div>
+                <div class="grid-container">
+                  <div class="grid-x grid-padding-x">
+                    <div class="small-12 cell">
+                      <label style="color: white;">Elige el método de pago</label>
+                      <select id="metodopago" name="metodopago" required>
+                        <option value="">Selecciona</option>
+                        <option value="efectivo">Efectivo (al momento de recibir tu pedido)</option>
+                        <option value="deposito">Deposito Bancario</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="callout success" data-closable="slide-out-right" id="InfoDeposito" style="display: none;">
+                  <p><i class="fi-info"></i> Número de cuenta: 17457609</p>
+                  <p><i class="fi-info"></i> Cuenta Rut</p>
+                  <p><i class="fi-info"></i> Banco Estado</p>
+                  <p><i class="fi-info"></i> Rut: 17.457.609-2</p>
+                  <p><i class="fi-info"></i> Marcelo Andrés González Cartes</p>
+                  <p><i class="fi-info"></i> Email: chelomario@gmail.com</p>
+                  <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+                    <span aria-hidden="true">&times;</span>
+                  </button>
                 </div>
                 <div class="input-group">
                   <textarea placeholder="Dejanos tus comentarios acá" name="comentarios" class="input-group-field" rows="5"></textarea>

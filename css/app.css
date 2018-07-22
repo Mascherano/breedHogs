@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6, button, label, input[type="submit"]{
 }
 
 #promo-action .callout{
-	background-color: #5e7eb7;
+	background-color: #2c3840;
 	color: white;
 	margin-bottom: 0;
 }
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6, button, label, input[type="submit"]{
 #sandwich-container .tabs,
 #sandwich-container .tabs .tabs-title,
 #sandwich-container .tabs .tabs-title.is-active a{
-	background-color: #9676af;
+	background-color: #020304;
 	color: white;
 	border: 0;
 	text-transform: uppercase;
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6, button, label, input[type="submit"]{
 
 #promo-container {
 	padding: 1em 0;
-	background-color: #f6e15f;
+	background-color: #fefefe;
 	color: #161742;
 }
 
