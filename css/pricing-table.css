@@ -36,3 +36,9 @@
 .pricing-table :last-child {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 39.9375em) {
+  .pricing-table .extra {
+    font-size: 16px;
+  }
+}
