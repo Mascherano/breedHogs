@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6, button, label, input[type="submit"]{
 
 #sandwich-container .tabs .tabs-title a:hover{
 	color: white;
-	background-color: #9676af;
+	background-color: #2c3840;
 }
 
 .tabs-title{
@@ -143,6 +143,10 @@ h1, h2, h3, h4, h5, h6, button, label, input[type="submit"]{
 	color: #ffcddc;
 }
 
+#solicitud-container button.button{
+	color: white;
+}
+
 #solicitud-container .error-container{
 	font-family: 'Bree Serif', serif;
 }
@@ -165,4 +169,9 @@ h1, h2, h3, h4, h5, h6, button, label, input[type="submit"]{
 
 #offCanvas .js-drilldown-back > a::before {
 	border-color: transparent white transparent transparent;
+}
+
+.news-image-gallery-container {
+	border: 1px solid white;
+	margin-bottom: 1em;
 }
