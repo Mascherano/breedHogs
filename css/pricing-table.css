@@ -23,18 +23,23 @@
 }
 
 .pricing-table .price {
-  background-color: #e6e6e6;
+  background-color: #ef9212;
   font-size: 2rem;
   border-bottom: 0;
+  color: white;
 }
 
 .pricing-table .description {
-  color: #8a8a8a;
+  color: #d4c8b9;
   font-size: 80%;
 }
 
 .pricing-table :last-child {
   margin-bottom: 0;
+}
+
+.pricing-table a.button{
+  background-color: #e75e13;
 }
 
 @media screen and (max-width: 39.9375em) {

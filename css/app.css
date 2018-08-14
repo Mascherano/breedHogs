@@ -7,21 +7,27 @@ h1, h2, h3, h4, h5, h6, button, label, input[type="submit"]{
 }
 
 #social-container{
-	background-color: #1c3643;
+	background-color: white;
+}
+
+#social-container a{
+	color: #e75e13;
 }
 
 #logo-container .callout{
-	background-color: #ee3f54;
-	color: white;
+	background-color: white;
+	color: black;
 	margin-bottom: 0;
+	border: 0px;
+	border-radius: 0px;
 }
 
 #menu-container {
-	background-color: #48a19d;
+	background-color: white;
 }
 
 #menu-container	li a{
-	color: white;
+	color: black;
 	font-family: 'Bree Serif', serif;
 	text-transform: uppercase;
 }
@@ -32,23 +38,26 @@ h1, h2, h3, h4, h5, h6, button, label, input[type="submit"]{
 
 #menu-container	li a:hover,
 #submenu-container li a:hover {
-	color: #f6e15f;
+	color: #ef9212; /* hover de elementos del menú */
 }
 
 #submenu-container li a {
-	background-color: #48a19d;
-	color: white;
+	background-color: white;
+	color: black;
 }
 
 #promo-action .callout{
-	background-color: #2c3840;
-	color: white;
+	background-color: white;
+	color: black;
 	margin-bottom: 0;
+	border: 1px solid black;
+	border-radius: 0px;
 }
 
 #promo-action .callout button{
 	color: white;
-	border: 1px solid white;
+	border: 1px solid #e75e13;
+	background-color: #e75e13
 }
 
 #sandwich-container{
@@ -60,8 +69,8 @@ h1, h2, h3, h4, h5, h6, button, label, input[type="submit"]{
 #sandwich-container .tabs,
 #sandwich-container .tabs .tabs-title,
 #sandwich-container .tabs .tabs-title.is-active a{
-	background-color: #020304;
-	color: white;
+	background-color: white;
+	color: black;
 	border: 0;
 	text-transform: uppercase;
 	font-family: 'Bree Serif', serif;
@@ -73,13 +82,13 @@ h1, h2, h3, h4, h5, h6, button, label, input[type="submit"]{
 
 #sandwich-container .tabs .tabs-title a{
 	font-size: 18px;
-	color: #a7fffb;
+	color: black;
 	font-family: 'Bree Serif', serif;
 }
 
 #sandwich-container .tabs .tabs-title a:hover{
 	color: white;
-	background-color: #2c3840;
+	background-color: #ef9212;
 }
 
 .tabs-title{
@@ -134,17 +143,18 @@ h1, h2, h3, h4, h5, h6, button, label, input[type="submit"]{
 }
 
 #solicitud-container{
-	background-color: #ee3f54;
-	color: white;
+	background-color: white;
+	color: black;
 	padding: 1em 0;
 }
 
 #solicitud-container h4 small{
-	color: #ffcddc;
+	color: black;
 }
 
 #solicitud-container button.button{
 	color: white;
+	background-color: #e75e13;
 }
 
 #solicitud-container .error-container{
