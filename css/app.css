@@ -116,6 +116,7 @@ h1, h2, h3, h4, h5, h6, button, label, input[type="submit"]{
 	padding: 1em 0;
 	background-color: #fefefe;
 	color: #161742;
+	border: 1px solid black;
 }
 
 .pricing-table {
