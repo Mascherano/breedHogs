@@ -26,6 +26,10 @@ h1, h2, h3, h4, h5, h6, button, label, input[type="submit"]{
 	background-color: white;
 }
 
+#menu-container	li a::after{
+	border-color: #e75e13 transparent transparent;
+}
+
 #menu-container	li a{
 	color: black;
 	font-family: 'Bree Serif', serif;
