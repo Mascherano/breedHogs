@@ -183,6 +183,7 @@ h1, h2, h3, h4, h5, h6, button, label, input[type="submit"]{
 }
 
 .news-image-gallery-container {
-	border: 1px solid white;
+	border: 1px solid #e75e13;
 	margin-bottom: 1em;
+	padding-top: 1em;
 }
