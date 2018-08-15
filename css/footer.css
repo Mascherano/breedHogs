@@ -6,7 +6,7 @@
 }
 
 .marketing-site-footer .marketing-site-footer-menu-social a {
-  color: white;
+  color: #e75e13;
 }
 
 .marketing-site-footer .column-block {
@@ -42,9 +42,9 @@
   margin-bottom: 1rem;
 }
 
-.marketing-site-footer-block .fa {
-  font-size: 2rem;
-  color: white;
+.marketing-site-footer-block i {
+  font-size: 1rem;
+  color: #e75e13;
 }
 
 .marketing-site-footer-block p {
@@ -70,6 +70,10 @@
 
 .marketing-site-footer-bottom .marketing-site-footer-bottom-links a {
   color: white;
+}
+
+.marketing-site-footer-bottom .marketing-site-footer-bottom-links a:hover {
+  color: #ef9212;
 }
 
 @media screen and (max-width: 63.9375em) {
